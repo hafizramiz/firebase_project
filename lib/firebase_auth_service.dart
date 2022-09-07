@@ -23,7 +23,7 @@ class AuthService {
   /// Creating signOut Method
   Future<void> _signOut() async {
     await FirebaseAuth.instance.signOut();
-    // await googleSignIn.signOut();
+    await googleSignIn.signOut();
     print("Cikis yapildi");
   }
 
