@@ -13,7 +13,6 @@ void main() async {
   runApp(Provider<AuthService>(
       create: (context) => AuthService(), child: MyApp()));
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
